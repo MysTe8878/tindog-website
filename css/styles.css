@@ -1,0 +1,210 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+#h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+#h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+#p{
+  font-family: 'Montserrat', sans-serif;
+  color: #8f8f8f;
+}
+
+#container-fluid-01 {
+  padding: 0% 15% 3% 15%;
+}
+
+#navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  padding-left: 2%;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+#navbar {
+  padding: 0 0;
+  margin: 0 0;
+  color: #fff;
+  background-color: #ef8172;
+}
+
+#nav-item {
+  padding: 0 18px;
+  font-size: 1.2rem;
+}
+
+#nav-link {
+  color: white;
+}
+
+#nav-link:hover {
+  color: #ff4c68;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 13%;
+  transform: rotate(20deg);
+  position: absolute;
+}
+
+#mid-row-config {
+  padding: 0 3%;
+  text-align: center;
+}
+
+.target {
+  padding: 20px 0;
+  color: #ef8172;
+}
+
+.target:hover {
+  color: #ff4c68;
+}
+
+#features {
+  background-color: #fff;
+  padding: 50px 0;
+  position: relative;
+  z-index: 1;
+}
+/* Testimonials section */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-img {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+  clear: right;
+}
+
+/* Press section */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#carousel-padding {
+  padding-bottom: 25px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing section */
+#pricing {
+  padding: 100px;
+}
+
+.btn-margin {
+  margin-bottom: 10px;
+}
+.bg-color {
+  border-color: #ef8172;
+  background-color: #fff;
+}
+
+.bdr-color {
+  border-color: #ef8172;
+  background-color: #ef8172;
+}
+
+.bg-color {
+  border-color: #ff4c68;
+  background-color: #fff;
+}
+
+.bdr-color {
+  border-color: #ff4c68;
+  background-color: #ff4c68;
+}
+
+#btn-color {
+  background-color: #ef8172;
+}
+
+#btn-color:hover {
+  background-color: #ff4c68;
+}
+
+@media (max-width: 1500px){
+  .title-image {
+    width: 20%;
+  }
+}
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  padding-top: 30px;
+}
+
+#footer-btn {
+  margin: 10px 3px 40px;
+}
+
+#footer {
+  text-align: center;
+}
+@media (max-width: 1200px){
+  .title-image {
+    width: 25%;
+  }
+}
+
+@media (max-width: 991px) {
+  .title-image {
+    width: 40%;
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
